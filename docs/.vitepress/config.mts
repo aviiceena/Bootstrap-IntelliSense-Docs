@@ -17,6 +17,12 @@ export default defineConfig({
   titleTemplate: '%s | ' + meta.name,
   head: [
     ['link', { rel: 'icon', href: '/bootstrap_Intellisense-logo.png' }], // Add this line; place favicon.ico in the public folder
+    'script',
+    {
+      async: true,
+      src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-46458603373970281',
+      crossorigin: 'anonymous',
+    },
   ],
   lang: 'en-US',
   lastUpdated: false,
