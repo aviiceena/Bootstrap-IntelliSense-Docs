@@ -31,7 +31,7 @@ export default defineConfig({
   themeConfig: {
     footer: {
       message: 'Made with ❤',
-      copyright: `© ${new Date().getFullYear()} Hossain Hosain`,
+      copyright: `© ${new Date().getFullYear()} Hossaini Hosain`,
     },
     editLink: {
       pattern: `${meta.githubLink}/edit/main/docs/:path`,

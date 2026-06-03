@@ -106,7 +106,7 @@ Start typing a Bootstrap class name:
 
 ### 3. Use Autocomplete
 
-As you start typing, suggestions will appear automatically:
+As you start typing, suggestions will appear automatically. Color-related classes show a color swatch right next to the suggestion:
 
 <img src="/autocomplete.png" alt="Autocomplete Feature" style="max-width: 100%; margin: 1rem 0; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);"/>
 
@@ -116,7 +116,11 @@ If suggestions don't appear automatically, press `Ctrl+Space` (or `Cmd+Space` on
 
 ### 4. Use Hover Preview
 
-Hover your mouse over a Bootstrap class to see the CSS properties:
+Hover your mouse over a Bootstrap class to see the CSS properties. For color-related classes, a color swatch and its hex code are shown above the rule:
 
 <img src="/css-hover-preview.png" alt="CSS Hover Preview" style="max-width: 100%; margin: 1rem 0; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);"/>
+
+::: tip Tip
+Autocomplete works not only in `class`/`className`, but also in framework bindings (`:class`, `v-bind:class`, `[ngClass]`, Svelte `class:`) and helpers like `cn()`, `clsx()` or `cva()` — including across multiple lines.
+:::
 
