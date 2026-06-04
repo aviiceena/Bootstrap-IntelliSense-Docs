@@ -116,11 +116,22 @@ If suggestions don't appear automatically, press `Ctrl+Space` (or `Cmd+Space` on
 
 ### 4. Use Hover Preview
 
-Hover your mouse over a Bootstrap class to see the CSS properties. For color-related classes, a color swatch and its hex code are shown above the rule:
+Hover your mouse over a Bootstrap class to see the CSS properties. For color utility classes, a color swatch and its hex code are shown above the rule (transparent colors use 8-digit `#RRGGBBAA`):
 
 <img src="/css-hover-preview.png" alt="CSS Hover Preview" style="max-width: 100%; margin: 1rem 0; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);"/>
 
+### 5. Inline Color Swatches
+
+While you edit, color utilities such as `bg-primary` or `text-black-50` show a small color box directly to the left of the class name. Toggle this in the Status Bar menu or with `enableColorPreview` in settings (on by default).
+
+### 6. Sort Bootstrap Classes
+
+Keep class lists tidy in Bootstrap’s canonical order (**Layout → Spacing → Components → Utilities**):
+
+- Command Palette → **Bootstrap IntelliSense: Sort Classes in Current File**
+- Or enable `sortOnSave` / **Enable/Disable sort on save** in the Status Bar menu to sort automatically when you save.
+
 ::: tip Tip
-Autocomplete works not only in `class`/`className`, but also in framework bindings (`:class`, `v-bind:class`, `[ngClass]`, Svelte `class:`) and helpers like `cn()`, `clsx()` or `cva()` — including across multiple lines.
+Autocomplete, inline swatches, hover, and sorting work not only in `class`/`className`, but also in framework bindings (`:class`, `v-bind:class`, `[ngClass]`, Svelte `class:`) and helpers like `cn()`, `clsx()` or `cva()` — including across multiple lines.
 :::
 
