@@ -5,5 +5,5 @@ export const meta = {
   releasesLink: 'https://github.com/aviiceena/bootstrap-intellisense/releases',
   marketplaceLink: 'https://marketplace.visualstudio.com/items?itemName=hossaini.bootstrap-intellisense',
   githubLink: 'https://github.com/aviiceena/bootstrap-intellisense',
-  version: '3.1.1',
+  version: '3.2.0',
 };
